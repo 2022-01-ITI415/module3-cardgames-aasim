@@ -73,7 +73,7 @@ public class Prospector : MonoBehaviour
     void Start()
     {
 
-        Scoreboard.S.score = ScoreManager.SCORE;
+
         deck = GetComponent<Deck>();
         deck.InitDeck(deckXML.text);
         Deck.Shuffle(ref deck.cards);
