@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum eFSState
+{
+    idle,
+    pre,
+    active,
+    post
+}
+
 public class FloatingScore : MonoBehaviour
 {
     [Header("Set Dynamically")]
@@ -110,12 +118,6 @@ public class FloatingScore : MonoBehaviour
         }
     }
 
-    public enum eFSState
-    {
-        idle,
-        pre,
-        active,
-        post
-    }
+
 }
 
